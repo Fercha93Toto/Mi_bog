@@ -1,0 +1,28 @@
+body {
+    background-color: #f8f9fa;
+}
+.navbar {
+    background-color: #2c2c54;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+.content-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.news-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+.footer {
+    background-color: #2c2c54;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
